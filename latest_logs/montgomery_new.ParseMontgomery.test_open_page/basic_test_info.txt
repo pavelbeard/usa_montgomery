@@ -1,0 +1,22 @@
+montgomery_new.py::ParseMontgomery::test_open_page
+--------------------------------------------------------------------
+Last Page: https://mdmontgomeryctyweb.myvscloud.com/webtrac/web/search.html?Action=Start&SubAction=&_csrf_token=cl6M1C6T731G2O2B383B2N405W415E6H1F5G4O6T4N1L4N5B5A4V0A6N4L4N6G095O5T5G6M6U5X3J4O4V015R5L6Q4H045N4M6F6H0F6J635L5R055N4R64520Q5Q4R5A&module=AR&keyword=&keywordoption=Match+One&type=Camps&primarycode=&season=&beginmonth=6&beginmonth=7&beginmonth=8&dayoption=All&showwithavailable=No&grade=&timeblock=&gender=&spotsavailable=&bydayonly=No&beginyear=&category=REC&display=Detail&search=yes&page=1&multiselectlist_value=
+ Duration: 15.87s
+  Browser: Chrome 121.0.6167.139 / headless
+   Driver: chromedriver 121.0.6167.85
+Timestamp: 1706785614  (Unix Timestamp)
+     Date: Thursday, 1 February 2024
+     Time: 12:06:54 PM  (CEST, UTC+02:00)
+--------------------------------------------------------------------
+Traceback:
+  File "/Users/pavelbeard/Documents/Freelance_pets/usa_montgomery/montgomery_new.py", line 16, in test_open_page
+    self.click("input[type='checkbox']")
+  File "/Users/pavelbeard/Documents/Freelance_pets/venvPets/lib/python3.12/site-packages/seleniumbase/fixtures/base_case.py", line 409, in click
+    element = page_actions.wait_for_element_visible(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pavelbeard/Documents/Freelance_pets/venvPets/lib/python3.12/site-packages/seleniumbase/fixtures/page_actions.py", line 515, in wait_for_element_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "/Users/pavelbeard/Documents/Freelance_pets/venvPets/lib/python3.12/site-packages/seleniumbase/fixtures/page_actions.py", line 266, in timeout_exception
+    raise exc(msg)
+Exception: Message: 
+ Element {input[type='checkbox']} was not visible after 7 seconds!
